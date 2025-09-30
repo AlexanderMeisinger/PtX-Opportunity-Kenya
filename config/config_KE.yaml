@@ -212,6 +212,7 @@ electricity:
       Offshore: [offwind-ac, offwind-dc]
       Onshore: [onwind]
       PV: [solar]
+    geothermal_potential: false
 
 lines:
   ac_types:

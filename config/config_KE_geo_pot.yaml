@@ -35,8 +35,8 @@ enable:
 custom_rules: [] # Default empty [] or link to custom rule file e.g. ["my_folder/my_rules.smk"] that add rules to Snakefile
 
 run:
-  name: "Kenya_geo" # use this to keep track of runs with different settings
-  sector_name: "Kenya_geo" # use this to keep track of sector scenario runs
+  name: "Kenya_geo_pot" # use this to keep track of runs with different settings
+  sector_name: "Kenya_geo_pot" # use this to keep track of sector scenario runs
   shared_cutouts: true # set to true to share the default cutout(s) across runs
   # Note: value false requires build_cutout to be enabled
   allow_scenario_failure: false # If True, the workflow will continue even if a scenario in run_scnenario fails
@@ -212,7 +212,7 @@ electricity:
       Offshore: [offwind-ac, offwind-dc]
       Onshore: [onwind]
       PV: [solar]
-    geothermal_potential: false
+    geothermal_potential: true
 
 lines:
   ac_types:
