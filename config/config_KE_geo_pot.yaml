@@ -45,11 +45,11 @@ scenario:
   simpl: [""]
   ll: ["copt"]
   clusters: [2]
-  opts: [Co2L0.00-144H]
+  opts: [Co2L0.00-3H]
   planning_horizons: # investment years for myopic and perfect; or costs year for overnight
   - 2050
   sopts:
-  - "144H"
+  - "3H"
 
   demand:
   - "NZ"
