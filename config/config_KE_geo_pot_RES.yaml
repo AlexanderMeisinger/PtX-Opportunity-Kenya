@@ -45,7 +45,7 @@ scenario:
   simpl: [""]
   ll: ["copt"]
   clusters: [2]
-  opts: [Co2L1.00-144H-RES0.75]
+  opts: [Co2L1.00-144H-RES0.4]
   planning_horizons: # investment years for myopic and perfect; or costs year for overnight
   - 2050
   sopts:
@@ -202,7 +202,11 @@ electricity:
   conventional_carriers: [nuclear, oil, OCGT, CCGT, coal, lignite, geothermal, biomass]
   renewable_carriers: [solar, onwind, offwind-ac, offwind-dc, hydro]
 
-  re_share_carriers: [solar, onwind, offwind-ac, offwind-dc, hydro, geothermal, biomass, solar rooftop]
+  #re_share_carriers: [solar, onwind, offwind-ac, offwind-dc, hydro, geothermal, biomass]
+  #all_carriers: [nuclear, oil, OCGT, CCGT, coal, lignite, geothermal, biomass, solar, onwind, offwind-ac, offwind-dc, hydro]
+
+  re_share_carriers: [solar, onwind, offwind-ac, offwind-dc, hydro, geothermal] # biomass, # solar rooftop
+  all_carriers: [OCGT, CCGT, solar, onwind, offwind-ac, offwind-dc, hydro, geothermal, nulcear, oil, coal, lignite] # biomass, # solar rooftop, 
 
   estimate_renewable_capacities:
     stats: "irena" # False, = greenfield expansion, 'irena' uses IRENA stats to add expansion limits
