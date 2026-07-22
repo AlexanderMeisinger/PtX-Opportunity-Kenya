@@ -1,8 +1,10 @@
-# H2Global meets Africa: Power-to-X Opportunities in Kenya
+# More electricity, less dependency: Renewable Power-to-X Opportunities for Kenya
 
-Branch: [PtX-Kenya](https://github.com/pypsa-meets-earth/pypsa-earth)
+Energy Model: [PtX-Kenya](https://github.com/pypsa-meets-earth/pypsa-earth)
 
 Input & Results: [DOI]()
+
+Project: [H2Global meets Africa](https://fenes.oth-regensburg.de/en/forschung/projekte/h2-global-africa)
 
 ## Respository structure
 - `config`: contains configuration files for PyPSA-Earth (Kenya).
@@ -52,6 +54,10 @@ The project results and analysis can be reproduced using the notebooks in `workf
 
 ## Result and input data
 A dataset of the model results will be available on Zenodo under a CC-BY-4.0 license. Please refer to the documentation of [PyPSA-Earth](https://pypsa-earth.readthedocs.io/en/latest/index.html) for details on the input data.
+
+## Acknowledgement
+We gratefully acknowledge funding from the H2Global meets Africa project (03SF0703A) by the German Federal Ministry
+of Research, Technology and Space.
 
 ## License
 The code in this repo is MIT licensed, see ./LICENSE.md.
