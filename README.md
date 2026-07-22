@@ -1,6 +1,6 @@
 # More electricity, less dependency: Renewable Power-to-X Opportunities for Kenya
 
-Energy Model: [PtX-Kenya](https://github.com/pypsa-meets-earth/pypsa-earth)
+Energy Model: [PtX-Kenya]([https://github.com/pypsa-meets-earth/pypsa-earth](https://github.com/AlexanderMeisinger/pypsa-earth/tree/pypsa-kenya))
 
 Project: [H2Global meets Africa](https://fenes.oth-regensburg.de/en/forschung/projekte/h2-global-africa)
 
