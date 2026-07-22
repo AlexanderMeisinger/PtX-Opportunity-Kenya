@@ -2,7 +2,7 @@
 
 Branch: [PtX-Kenya](https://github.com/pypsa-meets-earth/pypsa-earth)
 
-Input & Results: [![DOI](https://zenodo.org/badge/451538981.svg)](...)
+Input & Results: [DOI]()
 
 ## Respository structure
 - `config`: contains configuration files for PyPSA-Earth (Kenya).
