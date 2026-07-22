@@ -1,6 +1,8 @@
 # More electricity, less dependency: Renewable Power-to-X Opportunities for Kenya
 
-Energy Model: [PtX-Kenya]([https://github.com/pypsa-meets-earth/pypsa-earth](https://github.com/AlexanderMeisinger/pypsa-earth/tree/pypsa-kenya))
+Energy Model: [PtX-Kenya](https://github.com/AlexanderMeisinger/pypsa-earth/tree/pypsa-kenya)
+
+Zenodo: [![DOI](https://zenodo.org/badge/21497408.svg)](https://zenodo.org/badge/latestdoi/21497408)
 
 Project: [H2Global meets Africa](https://fenes.oth-regensburg.de/en/forschung/projekte/h2-global-africa)
 
@@ -11,7 +13,7 @@ This research develops and applies the open-source energy system model PyPSA-Ear
 
 Geothermal energy emerges as the least-cost expansion option for Kenya, followed by solar photovoltaics. Providing universal electricity access by 2030 while increasing domestic ammonia and methanol production requires up to 3.4 GW of installed geothermal capacity, representing an increase of 2.5 GW compared to 2023. If geothermal deployment is limited to 2 GW, up to 8 GW of additional solar photovoltaic capacity is required, increasing total system costs by €600 million. Additional storage requirements for balancing variable solar generation are a key driver of the cost increase, highlighting the economic value of baseload geothermal generation. Overall, the findings underline the strategic importance of Kenya's geothermal resources for cost-effective renewable electricity expansion and the development of a domestic green Power-to-X industry.
 
-Further information and detailed results are available here: [PtX-Opportunities-Kenya](https://github.com/user-attachments/files/30275570/2026_Meisinger_H2G-A_PtX-Kenya.pdf), [DOI]()
+Further information and detailed results are available here: [PtX-Opportunities-Kenya](https://github.com/user-attachments/files/30275570/2026_Meisinger_H2G-A_PtX-Kenya.pdf)
 
 
 ## Respository structure
@@ -61,7 +63,7 @@ Please follow the documentation of [PyPSA-Earth](https://pypsa-earth.readthedocs
 The project results and analysis can be reproduced using the notebooks in `workflow/notebooks` after successfully running the scenarios in `config`.
 
 ## Result and input data
-A dataset of the model results will be available on Zenodo under a CC-BY-4.0 license. Please refer to the documentation of [PyPSA-Earth](https://pypsa-earth.readthedocs.io/en/latest/index.html) for details on the input data.
+A dataset of the model results available on [Zenodo](https://zenodo.org/badge/latestdoi/21497408) under a CC-BY-4.0 license. Please refer to the documentation of [PyPSA-Earth](https://pypsa-earth.readthedocs.io/en/latest/index.html) for details on the input data.
 
 ## Acknowledgement
 We gratefully acknowledge funding from the H2Global meets Africa project (03SF0703A) by the German Federal Ministry
