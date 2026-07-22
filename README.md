@@ -2,8 +2,6 @@
 
 Energy Model: [PtX-Kenya](https://github.com/pypsa-meets-earth/pypsa-earth)
 
-Input & Results: [DOI]()
-
 Project: [H2Global meets Africa](https://fenes.oth-regensburg.de/en/forschung/projekte/h2-global-africa)
 
 ## Abstract
@@ -12,6 +10,8 @@ Kenya has one of the cleanest electricity systems in Africa. Almost 90% of its e
 This research develops and applies the open-source energy system model PyPSA-Earth, including a detailed representation of Kenya's geothermal resources along the Great Rift Valley, to assess future electricity system development and PtX opportunities. Three scenarios are analysed: (i) a Base Scenario achieving 100% renewable electricity and universal electricity access, (ii) a Low Independence Scenario additionally covering domestic production of 100 kt ammonia (20% of domestic demand) and 5 kt methanol (100% of domestic demand), and (iii) a High Independence Scenario with 350 kt ammonia production (50% of domestic demand) and 5 kt methanol production. To evaluate the strategic role of geothermal energy, a sensitivity analysis is conducted using various geothermal capacity limits.
 
 Geothermal energy emerges as the least-cost expansion option for Kenya, followed by solar photovoltaics. Providing universal electricity access by 2030 while increasing domestic ammonia and methanol production requires up to 3.4 GW of installed geothermal capacity, representing an increase of 2.5 GW compared to 2023. If geothermal deployment is limited to 2 GW, up to 8 GW of additional solar photovoltaic capacity is required, increasing total system costs by €600 million. Additional storage requirements for balancing variable solar generation are a key driver of the cost increase, highlighting the economic value of baseload geothermal generation. Overall, the findings underline the strategic importance of Kenya's geothermal resources for cost-effective renewable electricity expansion and the development of a domestic green Power-to-X industry.
+
+Further information and detailed results are available here: [PtX-Opportunities-Kenya](https://github.com/user-attachments/files/30275570/2026_Meisinger_H2G-A_PtX-Kenya.pdf), [DOI]()
 
 
 ## Respository structure
