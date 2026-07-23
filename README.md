@@ -2,7 +2,7 @@
 
 Energy Model: [PtX-Kenya](https://github.com/AlexanderMeisinger/pypsa-earth/tree/pypsa-kenya)
 
-Zenodo: [![DOI](https://zenodo.org/badge/21497408.svg)](https://zenodo.org/badge/latestdoi/21497408)
+Zenodo: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21497408.svg)](https://doi.org/10.5281/zenodo.21497408)
 
 Project: [H2Global meets Africa](https://fenes.oth-regensburg.de/en/forschung/projekte/h2-global-africa)
 
@@ -64,7 +64,7 @@ Please follow the documentation of [PyPSA-Earth](https://pypsa-earth.readthedocs
 The project results and analysis can be reproduced using the notebooks in `workflow/notebooks` after successfully running the scenarios in `config`.
 
 ## Result and input data
-A dataset of the model results available on [Zenodo](https://zenodo.org/badge/latestdoi/21497408) under a CC-BY-4.0 license. Please refer to the documentation of [PyPSA-Earth](https://pypsa-earth.readthedocs.io/en/latest/index.html) for details on the input data.
+A dataset of the model results available on [Zenodo](https://doi.org/10.5281/zenodo.21497408) under a CC-BY-4.0 license. Please refer to the documentation of [PyPSA-Earth](https://pypsa-earth.readthedocs.io/en/latest/index.html) for details on the input data.
 
 ## Acknowledgement
 We gratefully acknowledge funding from the H2Global meets Africa project (03SF0703A) by the German Federal Ministry
