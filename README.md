@@ -24,7 +24,7 @@ Further information and detailed results are available here: [PtX-Opportunities-
 - `workflow/pypsa-earth:` contains the PyPSA-Earth branch used for this calculations.
 
 ## Installation and usage
-1. Open your terminal at a location where you want to install the repository PtX-Opporunity-Kenya including it's subworkflows PyPSA-Earth. Type the following in your terminal to download the packages and the dependencies (pypsa-earth) from GitHub. Note that the tag `--recursive-submodules` is needed to automatically clone also the pypsa-eur and pypsa-earth dependencies.
+1. Open your terminal at a location where you want to install the repository PtX-Opporunity-Kenya including it's subworkflows PyPSA-Earth. Type the following in your terminal to download the packages and the dependencies (pypsa-earth) from GitHub. Note that the tag `--recursive-submodules` is needed to automatically clone the pypsa-earth dependencies.
    
    ```bash
    git clone --recurse-submodules https://github.com/AlexanderMeisinger/PtX-Opportunity-Kenya.git
@@ -36,10 +36,10 @@ Further information and detailed results are available here: [PtX-Opportunities-
    .../some/path/without/spaces % cd PtX-Opportunity-Kenya
    ```
    
-3. The PyPSA-Earth python package requirements are curated in the `workflow/pypsa-earth/envs/environment.yaml` of the PyPSA-Earth respository. The environment can be installed using conda or mamba:
+3. The PyPSA-Earth python package requirements are curated in the `workflow/envs/environment.yml` of the PyPSA-Earth respository. The environment can be installed using conda or mamba:
    
    ```bash
-   .../PtX-Opportunity-Kenya % conda env create -f workflow/pypsa-earth/envs/environment.yaml
+   .../PtX-Opportunity-Kenya % conda env create -f workflow/envs/environment.yml
    ```
    
 4. For running the optimisation one has to install the solver. We can recommend the open source `HiGHs` solver, see more details on solvers in the documentation of [PyPSA-Earth](https://pypsa-earth.readthedocs.io/en/latest/index.html). The optimisation in this work was performed using the commercial `Gurobi` solver.
